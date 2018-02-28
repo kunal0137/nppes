@@ -1,0 +1,15 @@
+Base Properties 
+ENGINE	nppes
+OWL	db/nppes/nppes_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_INSIGHTS	db/nppes/insights_database
+SOLR_RELOAD	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.ImpalaEngine
+RDBMS_TYPE	IMPALA
+DRIVER	com.cloudera.impala.jdbc4.Driver
+USERNAME	
+PASSWORD	
+CONNECTION_URL	jdbc:impala://impalaslave6.eastus2.cloudapp.azure.com:21050/default;SocketTimeout=0
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true

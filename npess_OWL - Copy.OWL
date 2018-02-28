@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="SEMOSS:ENGINE_METADATA">
+	<BASE_URI xmlns="CONTAINS:" rdf:resource="http://semoss.org/ontologies/Concept/"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/id"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/npi/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/npi/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/npi/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_last_org_name/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_last_org_name/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/nppes_provider_last_org_name/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_first_name/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_first_name/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/nppes_provider_first_name/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_city/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_city/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/nppes_provider_city/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_state/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_state/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/nppes_provider_state/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/specialty_description/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/specialty_description/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/specialty_description/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/description_flag/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/description_flag/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/description_flag/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/generic_name/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/generic_name/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/generic_name/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/bene_count/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_claim_count/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_claim_count/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_claim_count/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_day_supply/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_day_supply/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_day_supply/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_drug_cost/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_drug_cost/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_drug_cost/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65/id">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65_suppress_flag/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65_suppress_flag/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/bene_count_ge65_suppress_flag/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_claim_count_ge65/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_claim_count_ge65/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_claim_count_ge65/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ge65_suppress_flag/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ge65_suppress_flag/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ge65_suppress_flag/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count_ge65/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count_ge65/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_30_day_fill_count_ge65/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_day_supply_ge65/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_day_supply_ge65/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_day_supply_ge65/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/total_drug_cost_ge65/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/total_drug_cost_ge65/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/total_drug_cost_ge65/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2017:12:05 08:53:59</TIME>
+</rdf:Description>
+
+</rdf:RDF>
