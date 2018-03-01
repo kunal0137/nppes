@@ -30,6 +30,15 @@
 		</rdf:Description>
 	</DatatypeProperty>
 </rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/name_concat/id"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/name_concat/id">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/name_concat/id"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
 <Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/nppes_provider_first_name/id"/>
 <rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/id">
 	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
